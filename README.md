@@ -43,7 +43,7 @@ Maven installed
 IntelliJ IDEA / VS Code
 🔽 Steps to Run the Project
 1. Clone the Repository
-git clone https://github.com/your-username/inventory.git
+git clone https://github.com/Nagula-Lahari/Inventory-Management-reporting-system.git
 cd inventory
 2. Configure Database
 
@@ -76,13 +76,7 @@ GET	/products/{id}	Get product by ID
 POST	/products	Add new product
 PUT	/products/{id}	Update product
 DELETE	/products/{id}	Delete product
-📸 Screenshots
-Dashboard
-Product List
-Add Product
-Reports
 
-(Add screenshots here)
 
 🧪 Testing
 Use Postman to test REST APIs
