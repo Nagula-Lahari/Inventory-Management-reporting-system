@@ -4,25 +4,27 @@ A full-stack Inventory Monitoring & Reporting System built using Spring Boot, My
 This application helps businesses efficiently manage inventory, track stock levels, and generate reports.
 
 🚀 Features
-🔐 User Authentication (Login/Register)
-📦 Product Management (Add, Update, Delete, View)
-📊 Inventory Tracking (Stock monitoring)
-📈 Reporting System (Inventory reports & analytics)
-🔍 Search & Filter Products
-⚡ REST API Integration
-🗄️ Database Management with MySQL
+- 🔐 User Authentication (Login/Register)
+- 📦 Product Management (Add, Update, Delete, View)
+- 📊 Inventory Tracking (Stock Monitoring)
+- 📈 Reporting System (Inventory Reports & Analytics)
+- 🔍 Search & Filter Products
+- ⚡ REST API Integration
+- 🗄️ Database Management with MySQL
 🛠️ Tech Stack
-Backend
-Java 17
-Spring Boot
-Spring Data JPA
-Hibernate
-Database
-MySQL
-Tools & IDE
-IntelliJ IDEA
-Maven
-Postman (API Testing)
+### Backend
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+
+### Database
+- MySQL
+
+### Tools & IDE
+- IntelliJ IDEA
+- Maven
+- Postman (API Testing)
 
 ## 📂 Project Structure
 
@@ -55,7 +57,6 @@ IntelliJ IDEA / VS Code
 git clone https://github.com/Nagula-Lahari/Inventory-Management-reporting-system.git
 cd Inventory-Management-reporting-system
 ```
-cd inventory
 2. Configure Database
 
 Create a database in MySQL:
@@ -121,5 +122,5 @@ Open Source Contributors
 
 If you like this project:
 
-👉 Give it a ⭐ on GitHub
-👉 Share with others
+-👉 Give it a ⭐ on GitHub
+-👉 Share with others
