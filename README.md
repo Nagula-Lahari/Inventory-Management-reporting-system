@@ -25,16 +25,19 @@ Maven
 Postman (API Testing)
 📂 Project Structure
 inventory/
-│── src/
+├── src/
 │   ├── main/
-│   │   ├── java/com/example/inventory/
-│   │   │   ├── controller/
-│   │   │   ├── entity/
-│   │   │   ├── repository/
-│   │   │   └── service/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── inventory/
+│   │   │               ├── controller/
+│   │   │               ├── entity/
+│   │   │               ├── repository/
+│   │   │               └── service/
 │   │   └── resources/
-│   │       ├── application.properties
-│── pom.xml
+│   │       └── application.properties
+├── pom.xml
 ⚙️ Installation & Setup
 ✅ Prerequisites
 Java 17 installed
