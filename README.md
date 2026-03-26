@@ -49,33 +49,43 @@ MySQL installed
 Maven installed
 IntelliJ IDEA / VS Code
 🔽 Steps to Run the Project
-1. Clone the Repository
+## 🔽 Clone the Repository
+
+```bash
 git clone https://github.com/Nagula-Lahari/Inventory-Management-reporting-system.git
+cd Inventory-Management-reporting-system
+```
 cd inventory
 2. Configure Database
 
 Create a database in MySQL:
-
+```sql
 CREATE DATABASE inventory_db;
+```
 
 Update application.properties:
 
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/inventory_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+```
 3. Run the Application
 
 Using Maven:
-
+```bash
 mvn spring-boot:run
+```
 
 OR run directly from IntelliJ (Run button ▶️)
 
 4. Access API
+```bash
 http://localhost:8080
+```
 📊 API Endpoints
 Method	Endpoint	Description
 GET	/products	Get all products
